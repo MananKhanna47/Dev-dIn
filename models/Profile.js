@@ -6,13 +6,13 @@ const ProfileSchema = new mongoose.Schema({
     ref: 'user'
   },
   company: {
-    type: String,
+    type: String
   },
   website: {
-    type: String,
+    type: String
   },
   location: {
-    type: String,
+    type: String
   },
   status: {
     type: String,
@@ -23,10 +23,10 @@ const ProfileSchema = new mongoose.Schema({
     required: true
   },
   bio: {
-    type: String,
+    type: String
   },
   githubusername: {
-    type: String,
+    type: String
   },
   experience: [
     {
@@ -39,14 +39,14 @@ const ProfileSchema = new mongoose.Schema({
         required: true
       },
       location: {
-        type: String,
+        type: String
       },
       from: {
         type: Date,
         required: true
       },
       to: {
-        type: Date,
+        type: Date
       },
       current: {
         type: Boolean,
@@ -73,35 +73,35 @@ const ProfileSchema = new mongoose.Schema({
       },
       from: {
         type: Date,
-        required: true,
+        required: true
       },
       to: {
-        type: Date,
+        type: Date
       },
       current: {
         type: Boolean,
         default: false
       },
       description: {
-        type: String,
+        type: String
       },
     },
   ],
   social: {
     youtube: {
-      type: String,
+      type: String
     },
     twitter: {
-      type: String,
+      type: String
     },
     facebook: {
-      type: String,
+      type: String
     },
     linkedin: {
-      type: String,
+      type: String
     },
     instagram: {
-      type: String,
+      type: String
     },
   },
   date: {
