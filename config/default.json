@@ -1,5 +1,7 @@
 {
     "mongoURI":"mongodb+srv://Manan3031:Manan2000@cluster0.4rokt.mongodb.net/devortal?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "fcab3cb6c6ffed6dbadd",
+    "githubSecret": "9eb145fd8e91d8aa2fd0c72f7fc08508c07773e2"
 
 }
