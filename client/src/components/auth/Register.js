@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-
+import { Link } from 'react-router-dom';
 export const Register = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -21,10 +21,9 @@ export const Register = () => {
         if (password !== password2) {
           console.log('Passwords do not match');
         } else {
-          console.log(formData);
+          console.log('success');
         }
-      };
-
+    }
   return <Fragment>
       <h1 className="large text-primary">Sign Up</h1>
       <p className="lead"><i className="fas fa-user"></i> Create Your Account</p>
@@ -62,7 +61,7 @@ export const Register = () => {
         <input type="submit" className="btn btn-primary" value="Register" />
       </form>
       <p className="my-1">
-        Already have an account? <a href="login.html">Sign In</a>
+        Already have an account? <Link to="/login">Sign In</Link>
       </p>
   </Fragment>;
 };
