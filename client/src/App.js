@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import Navbar from './components/layout/Navbar';
-import { Landing } from './components/layout/Landing';
+import Landing from './components/layout/Landing';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import  Register  from './components/auth/Register';
 import { Provider } from 'react-redux';
