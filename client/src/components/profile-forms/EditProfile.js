@@ -1,4 +1,4 @@
-import React, { Fragment, Component, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import Alert from '../layout/Alert';
 import PropTypes from 'prop-types';
