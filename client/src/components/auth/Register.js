@@ -3,7 +3,6 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setAlert } from '../../actions/alert';
 import PropTypes from 'prop-types';
-import Alert from '../layout/Alert';
 import { register } from '../../actions/auth';
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
@@ -38,7 +37,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   return (
     <Fragment>
       <section className="container">
-        <Alert />
         <h1 className="large text-primary">Sign Up</h1>
         <p className="lead">
           <i className="fas fa-user"></i> Create Your Account
